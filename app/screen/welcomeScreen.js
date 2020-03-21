@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, Image, StyleSheet } from "react-native";
 import Button from "../components/Button";
 
-const welcomeScreen = () => {
+const welcomeScreen = ({ navigation }) => {
   return (
     <View style={{ flex: 1, padding: 10, backgroundColor: "#fff" }}>
       <View style={{ flex: 1 }}>
@@ -27,12 +27,20 @@ const welcomeScreen = () => {
         </View>
         <View
           style={{
-            flex: 1,
             flexDirection: "row"
           }}
         >
-          <Button buttonText="Log In" />
-          <Button inverted buttonText="sign out " />
+          <Button
+            route={navigation}
+            routeName="SignInScreen"
+            buttonText="LOG IN"
+          />
+          <Button
+            routeName="SignUpScreen"
+            route={navigation}
+            inverted
+            buttonText="SIGN UP "
+          />
         </View>
       </View>
     </View>

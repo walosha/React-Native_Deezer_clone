@@ -13,7 +13,6 @@ export default {
   "PlayfairDisplay-SemiBoldItalic": require("../assets/fonts/Playfair_Display/static/PlayfairDisplay-SemiBoldItalic.ttf"),
   "quicksand-Bold": require("../assets/fonts/quicksand/static/Quicksand-Bold.ttf"),
   "quicksand-Light": require("../assets/fonts/quicksand/static/Quicksand-Light.ttf"),
-  "quicksand-Bold": require("../assets/fonts/quicksand/static/Quicksand-Bold.ttf"),
   "quicksand-Medium": require("../assets/fonts/quicksand/static/Quicksand-Medium.ttf"),
   "quicksand-Regular": require("../assets/fonts/quicksand/static/Quicksand-Regular.ttf"),
   "quicksand-SemiBold": require("../assets/fonts/quicksand/static/Quicksand-SemiBold.ttf")
